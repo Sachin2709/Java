@@ -5,7 +5,7 @@ public class TestStudent {
 		Student student1 = new Student(153,"Rohit", "AI", 'C'); // parameterize contructor
 		Student student2 = new Student(); // default constructor
 		Student student3 = new Student(student1); //copy constructor
-		HostelStudent hs = new HostelStudent(1,"Priya","AI-ML","g",80,"H506");
+		HostelStudent hs = new HostelStudent(1,"Priya","AI-ML","g",80,"H506","cvra");
 
 		regularStudent rs = new regularStudent(153,"Priya", "AI", 'G',80,"H506");
 //		rs.displayInfo();

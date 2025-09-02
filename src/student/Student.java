@@ -26,6 +26,9 @@ package student;
 		this.Department = "AI";
 		this.Section = 'C';
 	}
+	public  void Search(int RollNumber) {
+		System.out.println("The Roll n0 is"+RollNumber);
+}
 	
 	
 	public void studying(int No_of_hours) {
