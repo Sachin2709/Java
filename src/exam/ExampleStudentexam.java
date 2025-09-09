@@ -1,6 +1,10 @@
 package exam;
 import student.Student;
 
+abstract class java extends Assessment{
+	
+}
+
 public class ExampleStudentexam extends Student {
 	public static void main(String args[]) {
 		Student s1 = new Student(5,"Priya","AIML",'C');
